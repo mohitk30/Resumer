@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.Site-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.035em;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+}
+
+.Link-to-builder {
+    text-decoration: none !important;
+    text-transform: capitalize;
+    width: 300px;
+    margin: auto;
+    margin-right: 0px;
+    color: white;
+}
+
+.Link-to-builder-span {
+    text-decoration: none !important;
+    text-transform: capitalize;
+    color: white;
+    padding-right: 50px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 20%;
+    min-height: 70px;
+    background: #3A4458;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+}
+
+.Basic-home-cont {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.left-text-cont {
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.right-image-cont {
+    width: 40%;
+}
+
+.home-image {
+    height: 90%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.Main-text-home {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 72px;
+}
+
+.left-small-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.small-underline {
+    width: 150px;
+    height: 7px;
+    background-color: #5C36FF;
+    margin-left: 150px;
+}
+
+.resume-diggerent-color {
+    color: #5C36FF;
+}
+
+.home-button-to-builder {
+    margin-top: 10px;
+}
+
+.home-button-to-builder-but {
+    height: 50px !important;
+    width: 250px !important;
+    border: 2px solid #5C36FF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding-top: 6px;
+    padding-left: 35px;
+    color: #5C36FF;
+}
+
+.home-button-to-builder-but:hover {
+    cursor: pointer;
+    background-color: #5C36FF;
+    color: white;
+}
+
+.below-button-div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-infos {
+    margin-left: 10px !important;
+}
+
+@media screen and (max-width:992px) {
+    .left-text-cont {
+        width: 100%;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .right-image-cont {
+        display: none;
+    }
+}
+
+
+/* builder */
+
+.builder-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.builder-container-nav {
+    width: 100%;
+    height: 50px;
+    background: #3A4458;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.builder-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.other-links-builder {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.main-container-resume {
+    width: 100%;
+    min-height: 80vh;
+    height: calc(100vh-70px);
+    display: flex;
+    flex-direction: row;
+}
+
+.left-forms-div {
+    width: 30%;
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.full-name-div {
+    width: 100%;
+    padding: 10px;
+}
+
+.right-resume-div {
+    width: 70%;
+    overflow-y: scroll;
+    position: fixed;
+    margin-left: 30%;
+    background: #C4C4C4;
+    padding: 15px;
+}
+
+.full-name-div-skill {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.Cross-red-color {
+    color: red;
+    margin-left: 10px;
+}
+
+.Cross-red-color:hover {
+    cursor: pointer;
+}
+
+.skills-div-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Resume */
+
+.Resume {
+    position: relative;
+    background: white;
+    height: 90vh;
+}
+
+.Resume-inside {
+    position: relative;
+    width: 100%;
+    padding: 30px 40px;
+    background: white;
+    height: 2000px;
+}
+
+
+/* full name */
+
+.full-name {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* social-links-div */
+
+.social-links-div {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-items {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-transform: none !important;
+}
+
+
+/* All-skills */
+
+.All-skills {
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.skills-section-heading {
+    padding: 1px 12px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.All-skills-container-box {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.each-skill-class {
+    padding: 2px 7px;
+    background-color: #3A4458;
+    font-size: 18px;
+    margin: 5px 7px;
+    color: white;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.projects-section-heading {
+    padding: 5px 12px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.project-name-and-links {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding: 5px;
+}
+
+.bulleted-points-project {
+    margin-top: -17px;
+    margin-left: 30px;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.experience-name-heading {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding: 5px;
+}
+
+.degree-name {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.start-and-end-year {
+    font-family: Poppins;
+    font-style: normal;
+    margin: auto;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.degree-school {
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.each-school-div {
+    margin-top: -5px;
+}
+
+.All-other-acheivements {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.each-acheivement {
+    margin-top: -10px;
+}
+
+.new-project-mondel {
+    min-height: 200px;
+    max-height: 300px;
+    width: 500px;
+    position: absolute;
+    bottom: 30vh;
+    left: 35vw;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+    /* position: fixed; */
+    background-color: white;
+    padding: 30px;
+}
+
+.Input-container-div {
+    overflow-y: scroll;
+    padding: 4px;
+    max-height: 200px;
+}
+
+.invi {
+    display: none;
+}
+
+.vis {
+    display: block;
+}
+
+.Mondel-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cancal-div {
+    margin: auto;
+    margin-right: 2px !important;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.ach-list-left {
+    padding-bottom: 50px;
+    height: auto;
+}
